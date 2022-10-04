@@ -1,0 +1,14 @@
+﻿@if(ViewBag.Title != null) {
+	<title>@ViewBag.Title</title>
+} else {
+	<title>Новости</title>
+}
+@if(ViewBag.Description != null) {
+	<meta name="discription" content="@ViewBag.Description" />
+}
+@if (ViewBag.Description != null) {
+	<meta name="keywords" content="@ViewBag.Keywords" />
+}
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
